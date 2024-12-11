@@ -1,3 +1,5 @@
+// call method
+
 const person = {
     fullName: function(){
         return this.firstName + " " + this.lastName;
@@ -12,3 +14,6 @@ const person2 = {
 
 const valueAdd = person.fullName.call(person2);
 console.log(valueAdd);
+
+
+// apply method
