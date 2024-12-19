@@ -34,4 +34,9 @@ let g = 20;
 
     console.log(k);
     
+
+
+    let numbers = 16850;
+    console.log(typeof numbers);
+    
  
