@@ -6,16 +6,26 @@
 
 // info.after(h1);
 
+// prependappend---------------------------------------------------------------------------------
+
+// const myInfo = document.querySelector(".method");
+
+// const infoList = ["apple", "Orange", "Banana", "Mango", "Cocunut"];
+
+// const nodes = infoList.map((para) => {
+//     const li = document.createElement("li");
+//     li.textContent =para;
+//     return li;
+// })
+
+// myInfo.prepend(...nodes)
 
 
-const myInfo = document.querySelector(".method");
+// insert Adjacent HTML
+// --------------------------------------------------------------------------------------------
+// let app = document.querySelector(".app");
 
-const infoList = ["apple", "Orange", "Banana", "Mango", "Cocunut"];
-
-const nodes = infoList.map((para) => {
-    const li = document.createElement("li");
-    li.textContent =para;
-    return li;
-})
-
-myInfo.prepend(...nodes)
+// app.insertAdjacentHTML("beforebegin", "<h1>this is my list</h1>");
+// app.insertAdjacentHTML("afterbegin", "<li>home page</li>");
+// app.insertAdjacentHTML("afterend", "<h1>this is my end list</h1>")
+// app.insertAdjacentHTML("beforeend", "<li>more see</li>");
